@@ -1,12 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Version>1.2019.1129.4</Version>
+    <Authors>d7p4n4</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <ApplicationIcon />
+    <StartupObject />
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="CSAc4yGetXmls" Version="1.2019.1129.1" />
+    <PackageReference Include="CSAc4yObjectGetGuidCAP" Version="1.2019.1129.1" />
     <PackageReference Include="CSModulFinal" Version="1.2019.1125.1" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.6.0" />
   </ItemGroup>
 
 </Project>
